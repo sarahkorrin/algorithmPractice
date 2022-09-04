@@ -9,11 +9,16 @@ function multiplyDigits(n) {
         return 'Not a valid input. Please input at least a two digit number'
     }
     else {
-        for (let i = 0; i < n.length; i++) {
+        for (let i = -1; i < n.length; i++) {
             multiply *= n[i]
         }
         return multiply
     }
 }
 
-multiplyDigits(13)
+console.log(multiplyDigits(13))
+
+function numLength(num) {
+    return num.length
+}
+console.log(numLength(20))

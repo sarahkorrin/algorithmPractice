@@ -3,7 +3,7 @@
  * Output an array of even integers.
  */
 
-function countBackwards(num) {
+function countBackwardsEven(num) {
     let evenArr = []
     for (let i = num; i > 0; i--) {
         if (i % 2 == 0) {
@@ -13,4 +13,4 @@ function countBackwards(num) {
     return evenArr
 }
 
-countBackwards(5)
+console.log(countBackwardsEven(5))

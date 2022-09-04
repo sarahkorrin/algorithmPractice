@@ -17,5 +17,5 @@ function factorial(n) {
     }
 }
 
-factorial(6)
+console.log(factorial(6))
 
