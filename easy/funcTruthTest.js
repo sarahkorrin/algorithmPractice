@@ -5,10 +5,13 @@
  */
 
 function findElement(arr, func) {
-    for (let i = 0; func; i++) {
+    for (let i = 0; i < arr.length; i++) {
         let newElement = arr[i]
-        return newElement
+        if (func(newElement)) {
+            return newElement
+        }
     }
+    return undefined
 }
 
-console.log(findElement([1, 2, 3, 4], num => num % 2 === 0))
+findElement([1, 2, 3, 4], num => num % 2 === 0);
