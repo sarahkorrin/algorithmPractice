@@ -16,6 +16,6 @@ function truncateString(str, num) {
 truncateString("A-tisket a-tasket A green and yellow basket", 8);
 
 /**
- * Waiting:truncateString("A-tisket a-tasket A green and yellow basket", 8) 
+ * Waiting:truncateString("A-tisket a-tasket A green and yellow basket", 8)
  * should return the string A-tisket...
  */
